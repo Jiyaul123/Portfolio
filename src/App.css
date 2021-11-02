@@ -1,38 +1,105 @@
-.App {
+:root{
+  --main-color: #91ff00;
+}
+.top_60{
+  margin-top: 60px;
+}
+.top_30{
+  margin-top: 30px;
+}
+.mb_30{
+  margin-bottom: 30px;
+} 
+.p_30{
+  padding: 30px;
+}
+.pb_45{
+  padding-bottom: 45px;
+}
+.main_content{
+  background-color: white;
+  min-height: 100vh;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.container_shadow{
+  box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow:  0px 2px 92px 0px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow:  0px 2px 92px 0px rgba(0, 0, 0, 0.13);
+}
+.section{
+  margin-top: 20px;
+}
+.section_title{
+  position: relative;
+  display: inline-block;
+  padding: 0 3px;
+}
+.section_title .section_title_text{
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  margin: 0; 
+}
+.section_title span{
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color);
+}
+.resume_timeline{
+  display: flex;
+}
+.service{
+  height: 100%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.service .service_title{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.service .service_description{
+  color: #989898;
+  border: var(--main-color);
+  margin-right: 5px;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.service_icon > .MuiSvgIcon-root{
+  font-size: 46px;
+  margin-left: 0;
+  font-weight: 5px;
+  text-align: center;
+}
+.skill{
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08);
+  min-height: 186px;
+  height: 100%;
+  text-align: center;
+}
+.skill .skill_title{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.skill .skill-description{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #989898;
+  font-weight: 400;
+  line-height: 18px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill .skill_description .timeline_dot{
+  border-color: var(--main-color);
+  padding: 2px;
+  margin-right: 5px;
 }

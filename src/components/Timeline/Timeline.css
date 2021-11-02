@@ -1,0 +1,40 @@
+.timeline{
+    padding: 0 !important;
+}
+.timeline .timeline_header{
+    padding-top: 7px;
+}
+.timeline .timeline_first{
+    min-height: 80px !important;
+}
+.timeline .MuiTimelineItem-root{
+    min-height: 0px;
+}
+.timeline .MuiTimelineItem-missingOppositeContent:before{
+    display: none;
+}
+.timeline .timeline_dot_header{
+    color: black;
+    background-color: var(--main-color);
+    font-size: small ;
+    padding: 10px;
+}
+.timeline .timeline_dot{
+    color: black;
+    border-color: var(--main-color);
+    padding: 5px;
+}
+.timeline .MuiTimelineConnector-root{
+    background-color: black;
+}
+.timeline .timeline_dot_header > .MuiSvg-root{
+    font-size: 15px;
+    color: darkslategray;
+}
+.timeline .separator-padding{
+    padding-left: 10px;
+}
+.timeline .timeline_content{
+    padding-top: 0px;
+    margin-bottom: 20px;
+}

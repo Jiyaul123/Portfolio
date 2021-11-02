@@ -1,0 +1,18 @@
+.about_text{
+    color: darkslategray;
+    font: smaller;
+    line-height: 22px;
+    white-space: pre-line;
+}
+.resume_timeline .timeline_content .timeline_title{
+    font-size: 16px;
+    font-weight: 500;
+}
+.resume_timeline .timeline_content .timeline_date{
+    color: darkslategray;
+}
+.resume_timeline .timeline_content .timeline_description{
+    color: gray;
+    font-size: small;
+    margin-top: 6px;
+}
